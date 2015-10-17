@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app ='ui-Route-Example'>
+<head>
+	<title>Pets</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-controller = 'mainCtrl'>
+  <header>
+      <div class="headerButtons">
+       <a  ui-sref="cats"> <button ng-click='buttonToggle1()' ng-class="{buttonActive: toggle1}" class = 'button-left'>Cats</button></a>
+       <a  ui-sref="dogs"> <button ng-click='buttonToggle2()' ng-class="{buttonActive: toggle2}" class = 'button-right'>Dogs</button></a>
+      </div>
+  </header>
+  <ui-view></ui-view>
+  
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+  
+
+  <script src="js/app.js"></script>
+  <script src="js/controller/mainCtrl.js"></script>
+
+
+ 
+
+
+  
+</body>
+</html>

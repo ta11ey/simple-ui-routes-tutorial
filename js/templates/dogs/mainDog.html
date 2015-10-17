@@ -1,0 +1,13 @@
+<nav>
+	<ul>
+		<a ui-sref="dogs.taco"><li ng-class="{active: isActive('/dogs/tacodog')}">taco</li> </a>
+		<a ui-sref="dogs.hot"><li ng-class="{active: isActive('/dogs/hotdog')}">hot</li> </a>
+		<a ui-sref="dogs.under"><li ng-class="{active: isActive('/dogs/underdog')}">under</li> </a>
+		
+	</ul>
+</nav>
+
+
+<div class="dogs">
+<ui-view></ui-view>
+</div>
