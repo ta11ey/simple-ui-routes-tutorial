@@ -61,3 +61,9 @@ Feel free to message me with any questions, This is my first tutorial so I am op
 
 #7. Setting up other main routes
      1. To create other main routes, instead of attaching to the parent route, when you declare the new '.state' just use a new 'name'!
+
+#8. Shimmy on over to the Index.html
+      Now for the final step you want to create the links to lead to the correct routes.
+
+      1. In your <a> tag instead of using a href like usual, you will instead use a ui-sref
+      2.  simply make this sref the route you wish to navigat to, like so:   <a ui-sref = 'mainroute'> or <a ui-sref = 'mainroute.childroute'> 
