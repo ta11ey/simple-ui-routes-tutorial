@@ -8,3 +8,6 @@ Introduction to UI Routes
   -Basic angular
   
   -basic JS
+  
+# 1. Set up the server
+
